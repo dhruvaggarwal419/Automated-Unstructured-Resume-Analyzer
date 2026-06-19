@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Manrope", "Segoe UI", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  color: #0f172a;
+  background-color: #f7f3ee;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ink: #0f172a;
+  --forest: #1f3a2f;
+  --gold: #c6a15b;
+  --silk: #f7f3ee;
+  --paper: #fcfbf8;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--silk);
+}
+
+a {
+  font-weight: 600;
+  color: var(--forest);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #163024;
+}
+
+.font-display {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  letter-spacing: -0.02em;
+}
+
+.text-ink {
+  color: var(--ink);
+}
+
+.bg-ink {
+  background-color: var(--ink);
+}
+
+.bg-atlas {
+  background: radial-gradient(circle at top, rgba(198, 161, 91, 0.12), transparent 55%),
+    radial-gradient(circle at 15% 20%, rgba(31, 58, 47, 0.08), transparent 45%),
+    linear-gradient(135deg, #f6f2ea, #fdfbf7 60%, #f0ebe1);
+}

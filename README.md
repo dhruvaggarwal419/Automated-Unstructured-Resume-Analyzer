@@ -12,18 +12,6 @@
 
 ---
 
-## 📄 Research Paper
-
-This system is described in the paper:
-
-**"A Deterministic Four-Module Pipeline for Layout-Aware Parsing, Cross-Platform Profile Normalisation, Dynamic Weight-Redistributed ATS Scoring, and Real-World Candidate Verification"**
-
-*Dhruv Aggarwal — Graphic Era (Deemed to be University), Dehradun*
-
-Submitted to: **SN Computer Science (Springer Nature)**
-
----
-
 ## 🚨 Problem Statement
 
 Modern Applicant Tracking Systems (ATS) suffer from three critical failures:
